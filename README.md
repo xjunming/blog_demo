@@ -2,5 +2,6 @@
 Welcome, This is my blog demo.
 
 ## To run this demo. 
-* 'python create_db.py'
-* 'python run.py'
+* `pip install -r requirement.txt`
+* `python create_db.py`
+* `python run.py`
