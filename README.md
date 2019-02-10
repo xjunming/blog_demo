@@ -1,5 +1,5 @@
 # blog_demo
-Welcome, This is my blog demo written by Flask.
+This is a blog-website written by Flask.
 
 ## To run this demo. 
 If you have virtualenv, you can run `virtualenv env`, and then `source env/bin/activate`.
