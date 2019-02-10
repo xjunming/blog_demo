@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="row">
+		<div class="col-md-6 col-md-offset-2">
+			<h1>博客首页</h1>
+			<br>
+			{% import 'bootstrap/wtf.html' as wtf %}
+			{{ wtf.quick_form(form) }}
+			<hr>
+            {% include 'post_content.html' %}
+		</div>
+	</div>
+{% endblock %}
